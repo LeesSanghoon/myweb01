@@ -1,0 +1,197 @@
+/*폰트모음*/
+@font-face {
+    font-family: 'ghanachoco';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*font-family: 'NanumSquare'  // 
+위 폰트들은 html\head 부분에 삽입 */
+
+/* ----------------------- *//* ----------------------- *//* ----------------------- */
+/*reset*/
+/* 여백 초기화 */
+body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,
+fieldset,legend,p,select,table,th,td,tr,textarea,button,form,
+figure,figcaption{margin:0; padding:0;}
+
+/* 테두리 초기화 */
+img,fieldset {border:0 none;}
+
+/* 블릿기호 초기화 */
+ul,li,ol {list-style:none;}
+
+/* a 링크 초기화 */
+a {color: #91849d; text-decoration: none;}
+a:hover {color: #5d417a;}
+
+/* 버튼 초기화 */
+button {border: 0;}
+
+/* 반응형 */
+video,img {width: 100%;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: '';line-height: 0;}
+.clearfix:after {clear: both;}
+/* ----------------------- *//* ----------------------- *//* ----------------------- */
+
+/*레이아웃*/
+
+body{
+    background-color: white;
+    min-width: 542px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.frame{
+    margin: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* nav */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+.logo{
+    margin: 0;
+    font-family:'ghanachoco';
+    color: #91849d;
+}
+
+.nav-menu{
+    font-family: 'ghanachoco';
+}
+
+/*board*/
+.board{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.greeting{
+    font-family: 'GmarketSansBold';
+    font-size: 36px;
+    line-height: 120%;
+
+}
+
+.comment_style1{
+    color: #91849d;
+}
+
+.comment_style2{
+    margin-top: 20px;
+    color: #1e1e1e;
+    line-height: 120%;
+    font-family: 'NanumSquare';
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* middle */
+.recent-menu{
+    font-family:'ghanachoco';
+    color: #91849d;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    font-family:'GmarketSansBold';
+    color: #91849d;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.contact-link{
+    margin-top: 30px;
+    font-family:'GmarketSansBold';
+    color: #91849d;
+    font-size: 14px;
+}
+
+.link{
+    margin: 20px;
+}
+
+/* INFO.html */
+
+.profile_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 100px 100px;
+}
+
+#profile_img{
+    width: 200px;
+    margin-right: 60px;
+}
+
+.introduction>h2{
+    margin: 0;
+    font-family: 'GmarketSansBold';
+    font-size: 35px;
+}
+
+.introduction>p{
+    font-family: 'Chosunilbo_myungjo';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+#ability_img{
+    width: 361px;
+}
